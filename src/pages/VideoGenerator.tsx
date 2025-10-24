@@ -63,7 +63,7 @@ function VideoGenerator({ onBack }: VideoGeneratorProps) {
         params.append('imageUrl', imageUrl);
       }
 
-      const response = await fetch('/api/ai/Txt2video', {
+      const response = await fetch('/api/video', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
