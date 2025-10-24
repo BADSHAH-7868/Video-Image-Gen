@@ -5,5 +5,5 @@ export async function generateImage(prompt) {
       : "https://image.pollinations.ai";
 
   // Pollinations image API returns a direct image URL
-  return `${baseUrl}/p/${encodeURIComponent(prompt)}?model=flux`;
+  return `${baseUrl}/p/${encodeURIComponent(prompt)}?model=Schnell`;
 }
